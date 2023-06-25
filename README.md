@@ -4,6 +4,7 @@
 
 * Start day: 2023.03.09
 * Meetings: Every Thursday 12:15-14:45
+* Last meeting: 2023.06.22
 
 ## TOC
 
@@ -22,8 +23,13 @@
 * [Session 7: Docker, part 2](#session-7-docker-part-2)
 * [Session 8: git-scm on Windows, GitHub contribution workflow](#session-8-git-scm-on-windows-github-contribution-workflow)
 * [Session 9: GitHub Actions](#session-9-github-actions)
-
-* [Next](#next)
+* [Assignment 9](#assignment-9)
+* [Session 10: Dockerfile; Playground; GitHub Actions for Java, Open Source](#session-10-dockerfile-playground-github-actions-for-java-open-source)
+* [Session 11: Testing with PyTest](#session-11-testing-with-pytest)
+* [Assignment 11](#assignment-11)
+* [Session 12: Which project to work on; Docker compose](#session-12-which-project-to-work-on-docker-compose)
+* [Assignment 12](#assignment-12)
+* [Session 13: Overview of well-known open source projects](#session-13-overview-of-well-known-open-source-projects)
 
 ## Videos
 
@@ -122,7 +128,7 @@
 
 ## Assignment 1
 
-* Create GitHub repository if you don't have one yet.
+* Create GitHub account if you don't have one yet.
 * Add an image or an avatar to your GitHub account.
 * Add your JSON to our repository to the `participants/' folder.
 * List interesting projects in the JSON file.
@@ -165,7 +171,7 @@
    * 42:10 Git project concepts, Forking and committing
 
 * [Video 2-2](https://youtu.be/WuKd66rLTKw): (Freddy Adiv)
-   * 00:00 Locking files - pros and cons
+   * 00:00 Locking files in version control - pros and cons
    * 02:50 Following a project and notifications in Git
    * 05:35 Ranking mechanism of projects
    * 06:10 Structure of Git URLs, projects/ organizations/ repos
@@ -304,7 +310,7 @@ Date: 2023.03.30 13:30-14:30
 
 * [Video 4-1](https://youtu.be/xIP13AK4usI): Ran Moshe
    * 00:00 PyDigger and pypi.org (Introduction)
-   * 03:00 last updates of pypi (show in CLI- use grep & ack to get the relevant url) 
+   * 03:00 last updates of pypi (show in CLI- use grep & ack to get the relevant url)
    * 04:45 PyDigger-Statistics
    * 06:30 No VCS (PyDigger-Statistics)
    * 07:50 CI (PyDigger-Statistics)
@@ -798,8 +804,23 @@ It can be a project you already contributed to or any other project. It can be i
 
 * Start writing a project and pusing it out to a repository on GitHub. The programming language used is not important and the project can be any "toy" project, but it needs to show the various things we learned. It has to have at least one test and there has to be Github Actions configured to run it.
 
-## Next:
+## Session 13: Overview of well-known open source projects
 
+* Date: 2023.06.22 12:15-14:30
+
+* Q&A Session
+* https://dev.to/szabgab/the-most-interesting-open-source-web-applications-356
+* https://distributed.blog/
+* https://code-maven.com/live-web-site-with-editable-open-source-code
+
+* [Maakaf](https://maakaf.code-maven.com/) Discord!
+* Review lots of open source projects
+
+* [Video 13-1](https://youtu.be/rp5y63QZ-Es):
+* [Video 13-2](https://youtu.be/z6sLipczINc):
+
+
+```
 Videos so far:
     Yael Levi        18C
     Eliyahou Levi    18C
@@ -807,11 +828,4 @@ Videos so far:
     Ran Moshe        3455
     Doron Chapnitsky 6699
     Zohar Asulin     AABB
-
-## Session 13 2023.06.22 12:15-14:30
-
-* Video 13-1:
-* Video 13-2:
-
-* [VS Code and Docker](https://code.visualstudio.com/docs/devcontainers/containers)
-
+```
